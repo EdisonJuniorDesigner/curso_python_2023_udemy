@@ -1,12 +1,13 @@
 # if / elif       / else
 # se / se não se  / se não
 
-condicao = False
+condicao1 = False
+condicao2 = True
 
-if condicao:
+if condicao1:
     print('Este é o código do if')
 else:
     print('Este é o else do primeiro if')
 
-if 10 == 10:
+if condicao2:
     print('Outro if')
